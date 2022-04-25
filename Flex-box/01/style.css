@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    width: 100vh; 
+}
+.card{
+    width: 10vh;
+    margin: 5px;
+    padding: 5px;
+}
+.card-info{
+    background-color: yellow;
+}
+.card-promo{
+    background-color: red;
+}
+.card-new{
+    background-color: green;
+}
