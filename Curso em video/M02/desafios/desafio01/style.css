@@ -7,7 +7,17 @@
 body,html{
     background-color: aquamarine;
 }
+header{
+    padding: 30px;
+    height: 200px;
+    background: linear-gradient(to bottom, rgb(28, 2, 145), rgb(0, 174, 197));
+}
+header > p{
+    padding: 30px;
+    text-align: center;
+}
 h1{
+    text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
