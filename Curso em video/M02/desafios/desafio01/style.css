@@ -1,18 +1,18 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
-
-body,html{
-    background-color: aquamarine;
+html,body{
+    background-color: #907bfa;
 }
 header{
-    padding: 30px;
-    height: 200px;
-    background: linear-gradient(to bottom, rgb(28, 2, 145), rgb(0, 174, 197));
+    padding-top: 30px;
+    background: linear-gradient( -45deg, #A08EF8, #85F0F0);
+    color: white;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.349);
 }
 header > p{
+
     padding: 30px;
     text-align: center;
 }
@@ -20,4 +20,41 @@ h1{
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+}
+a:hover{
+    background-color: #A08EF8;
+    transition: 2s;
+}
+main{
+    margin: auto;
+    width: 87%;
+    background-color:white;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.349);
+}
+h2,h3{
+    padding: 10px;
+}
+h3{
+    background: linear-gradient( to right, #A08EF8, #85F0F0);
+}
+p{
+    padding: 10px;
+    text-indent: 20px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+div.video{
+    margin: auto;
 }
