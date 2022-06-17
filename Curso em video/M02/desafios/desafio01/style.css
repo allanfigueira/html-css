@@ -55,6 +55,24 @@ img{
     display: block;
     margin: auto;
 }
-div.video{
+div.ytvideo{
+    padding: 20px;
+    text-align: center;
+    background-color: #907bfa;
+}
+
+
+article{
+    
+    padding: 30px;
     margin: auto;
+    margin-top: 10px;
+    background-color: #85F0F0;
+    
+}
+
+ul{
+
+    list-style-type: square;
+    columns: 2;
 }
