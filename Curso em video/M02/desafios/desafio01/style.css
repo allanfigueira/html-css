@@ -37,7 +37,7 @@ a:hover{
 }
 main{
     margin: auto;
-    width: 87%;
+    width: 78%;
     background-color:white;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.349);
 }
@@ -63,16 +63,34 @@ div.ytvideo{
 
 
 article{
-    
+    border-radius: 15px;
     padding: 30px;
     margin: auto;
     margin-top: 10px;
     background-color: #85F0F0;
-    
+    width: 50vw;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.349);
 }
 
 ul{
 
     list-style-type: square;
     columns: 2;
+}
+h4{
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+    text-align: center;
+    margin: -30px;
+    margin-bottom: 20px;
+    background-color: #907bfa;
+    color: white;
+    font-weight: bold;
+    
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #7160c7;
+    margin-top: 20px;
 }
